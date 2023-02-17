@@ -1,24 +1,22 @@
 {
-  "name": "@virtual-spirit/codelabs-next-web",
-  "version": "1.0.3",
-  "description": "This boilerplate is a starter nextjs app to building web platform",
+  "name": "@toms-studio/scrum-poker",
+  "version": "0.0.1",
+  "description": "Application to determine story point each task",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/virtualspirit/codelabs-next-web.git"
+    "url": "git+https://github.com/toms-studio/scrum-poker"
   },
   "keywords": [
-    "boilerplate",
+    "scrum-poker",
     "next",
-    "app"
+    "app",
+    "typescript"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/virtualspirit/codelabs-next-web/issues"
+    "url": "https://github.com/toms-studio/scrum-pokerissues"
   },
-  "homepage": "https://github.com/virtualspirit/codelabs-next-web#readme",
-  "bin": {
-    "codelabs-next-web": "bin/cli.js"
-  },
+  "homepage": "https://github.com/toms-studio/scrum-poker#readme",
   "author": "tomibudis",
   "scripts": {
     "dev": "next dev",

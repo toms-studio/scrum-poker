@@ -1,6 +1,6 @@
-# Next Typescript Boilerplate
+# Scrum Poker
 
-This is the Next.js application for Web Frontend Template
+This is source code of scrum poker application build by Next.js, typescript, zustand, tailwindcss
 
 ### Lighthouse
 
@@ -11,18 +11,6 @@ This is the Next.js application for Web Frontend Template
 | Statements                                                                         | Branches                                                                       | Functions                                                                           | Lines                                                                       |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | ![Statements](https://img.shields.io/badge/statements-77.12%25-red.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-54.23%25-red.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-87.09%25-yellow.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-81.11%25-yellow.svg?style=flat) |
-
-## What chore library inside this repository?
-
-```
-- jest & testing-library
-- tailwindcss
-- tanstack/react-query
-- nextjs@latest
-- zustand
-- axios
-- dayjs
-```
 
 ## Prerequisite
 
@@ -118,7 +106,9 @@ src
         └── index.ts
 ```
 
-## Commit
+## Code of Conduct
+
+### Commit Rules
 
 All commit messages should conform to the [conventional commit format](https://www.conventionalcommits.org) and should use following syntax: `type(scope): subject`. While the type is mandatory, the scope is optional.
 Examples:
@@ -146,7 +136,7 @@ Main types are `fix` and `feat`, however it is possible to also use:
 
 Additional information can be found [here](https://github.com/KWRI/engineering-resources/blob/develop/git/commit_standards.md)
 
-## Generate lighthouse
+### Generate lighthouse
 
 1. build application with `npm run build`
 2. run app locally `npm run start`
